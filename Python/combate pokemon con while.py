@@ -2,7 +2,7 @@ from random import randint
 import os
 
 
-VIDA_INICIAL_PIKACHU= 80
+VIDA_INICIAL_PIKACHU = 80
 VIDA_INICIAL_SQUIRTLE = 90
 vida_pikachu = VIDA_INICIAL_PIKACHU
 vida_squirtle = VIDA_INICIAL_SQUIRTLE
@@ -36,7 +36,6 @@ while vida_pikachu > 0 and vida_squirtle > 0:
 
     input("enter para continuar...\n\n")
     os.system("cls")
-
 
     print("turno squirtle")
 
@@ -78,6 +77,3 @@ if vida_pikachu > vida_squirtle:
 
 else:
     print("squirtle gana!")
-
-
-
