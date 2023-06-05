@@ -23,7 +23,7 @@ public class sumadearreglosmayor {
         
         if(sumados<sumauno){
             mayor = sumados;
-        }else{
+        }else if{
             mayor  = sumatres;
         }
         
