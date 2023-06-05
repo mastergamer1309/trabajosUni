@@ -1,8 +1,9 @@
 public class sumadearreglosmayor {
     public static void main(String []args){
-        int numeros1[] = {12,23,46,45,78,345,34576,234,576,3434,65,34};
-        int numeros2[] = {1,5,7,56,8,5,3,457,2,6,4,6,3456,75};
+        int numeros1[] = {2,2,2};
+        int numeros2[] = {2,2,2};
         int numeros3[] = {25,765,345,67,34,7,3,6,3,6,3,};
+        int repetidos[] = new int[numeros1.length];
         int sumauno = numeros1[0];
         int sumados = numeros2[0];
         int sumatres = numeros3[0];
@@ -31,6 +32,25 @@ public class sumadearreglosmayor {
         
         
         System.out.println("el arreglo mayor es: " + mayor);
+
+        //Teniendo dos arreglos decir cuales y cuantoselementos del arreglo 1 estan tambien en el arreglo 2
+
+        for(int i = 0; i < numeros1.length; i++){
+            for(int j = 0; j < numeros2.length; j++){
+                if(numeros1[i] == numeros2[j]){
+                    repetidos[i] = numeros2[j];
+                    for(int k = 0; i< numeros1.length; k++){
+                        if(numeros2[j] == repetidos[k]){
+                            System.out.println("el  numero en comun en la lista uno y lista dos es:" + numeros2 [j]);
+                        }
+                    }
+                    
+                    
+                }
+            }
+            
+        }
+
     }
     
 }
