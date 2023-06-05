@@ -21,11 +21,14 @@ public class sumadearreglosmayor {
 
         int mayor = sumauno;
         
-        if(sumados<sumauno){
+        if(sumados > sumauno && sumados > sumatres){
             mayor = sumados;
-        }else if{
+        }else if(sumatres > sumados && sumatres > sumauno){
             mayor  = sumatres;
+        }else{
+            mayor= sumauno;
         }
+        
         
         System.out.println("el arreglo mayor es: " + mayor);
     }
