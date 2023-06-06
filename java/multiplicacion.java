@@ -1,5 +1,5 @@
 import  java.util.Scanner;
-public class arreglos {
+public class multiplicacion {
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
         int[] listauno = new int [5];
