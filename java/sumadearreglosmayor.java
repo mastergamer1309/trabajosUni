@@ -39,7 +39,7 @@ public class sumadearreglosmayor {
             for(int j = 0; j < numeros2.length; j++){
                 if(numeros1[i] == numeros2[j]){
                     repetidos[i] = numeros2[j];
-                    for(int k = 0; i< numeros1.length; k++){
+                    for(int k = 0; k< numeros1.length; k++){
                         if(numeros2[j] == repetidos[k]){
                             System.out.println("el  numero en comun en la lista uno y lista dos es:" + numeros2 [j]);
                         }
