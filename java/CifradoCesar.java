@@ -5,7 +5,6 @@ public class CifradoCesar {
         Scanner scanner = new Scanner(System.in);
         //realizar cifrado cesar, desplazar una letra las posiciones de rotacion proporcionadas en el abecedario
         String abecedario[] = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z","a",};
-        int contador = 0;
         System.out.println("ingrese una palabra para cifrar");
         String palabraDeUsuario[] = {scanner.next()};
         String textoseparado[] = palabraDeUsuario[0].split("");
@@ -28,7 +27,7 @@ public class CifradoCesar {
                 }
             }
         }
-
+        scanner.close();
 
         System.out.println(Arrays.toString(textoCifrado));
    
