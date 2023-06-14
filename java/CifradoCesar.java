@@ -4,12 +4,12 @@ public class CifradoCesar {
     public static void main(String []args){
         Scanner scanner = new Scanner(System.in);
         //realizar cifrado cesar, desplazar una letra las posiciones de rotacion proporcionadas en el abecedario
-        String abecedario[] = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z","a",};
+        String Abc[] = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z","a",};
         System.out.println("ingrese una palabra para cifrar");
-        String palabraDeUsuario[] = {scanner.next()};
-        String textoseparado[] = palabraDeUsuario[0].split("");
-        System.out.println(Arrays.toString(textoseparado));
-        String textoCifrado[] = new String[textoseparado.length];
+        String UserWord[] = {scanner.next()};
+        String SplittedText[] = UserWord[0].split("");
+        System.out.println(Arrays.toString(SplittedText));
+        String CipherText[] = new String[SplittedText.length];
 
 
         System.out.println("ingrese el numero de rotaciones");
@@ -17,19 +17,19 @@ public class CifradoCesar {
         
 
 
-        for (int i = 0;i < textoseparado.length;i++){
-            for(int j = 0; j < abecedario.length; j++){
-                if(textoseparado[i].equals(abecedario[j])){
-                    int rotacionFinal = (j + rotaciones) % abecedario.length;
+        for (int i = 0;i < SplittedText.length;i++){
+            for(int j = 0; j < Abc.length; j++){
+                if(SplittedText[i].equals(Abc[j])){
+                    int FinalRotation = (j + rotaciones) % Abc.length;
 
-                    textoCifrado[i] = abecedario[rotacionFinal];
+                    CipherText[i] = Abc[FinalRotation];
 
                 }
             }
         }
         scanner.close();
 
-        System.out.println(Arrays.toString(textoCifrado));
+        System.out.println(Arrays.toString(CipherText));
    
    
     }
