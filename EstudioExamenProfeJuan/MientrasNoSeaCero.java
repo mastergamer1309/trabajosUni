@@ -14,6 +14,7 @@ public class MientrasNoSeaCero {
         }while(num !=0);
 
         System.out.println(suma);
+        scanner.close();
     }
     
 }
