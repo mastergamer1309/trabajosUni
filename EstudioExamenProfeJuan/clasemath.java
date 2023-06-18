@@ -1,5 +1,5 @@
 package EstudioExamenProfeJuan;
-import java.util.Arrays;
+
 public class clasemath {
     public static void main(String []args){
         //sacar la raiz cuadrada Math.sqrt
