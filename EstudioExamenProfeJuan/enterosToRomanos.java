@@ -1,7 +1,7 @@
 package EstudioExamenProfeJuan;
 import java.util.Scanner;
 
-import javax.sound.sampled.SourceDataLine;
+
 public class enterosToRomanos {
     
     public static void main(String []args){
@@ -41,7 +41,7 @@ public class enterosToRomanos {
         numero = numero%10;
         indexUnidades = numero;
 
-        return miles[indexMiles] + centenas[indexCentenas] + decenas[indexDecenas] + unidades[indexUnidades];
+        return  miles[indexMiles] + centenas[indexCentenas] + decenas[indexDecenas] + unidades[indexUnidades];
     }
 
     
