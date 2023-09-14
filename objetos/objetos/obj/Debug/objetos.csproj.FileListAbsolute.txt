@@ -1,8 +1,0 @@
-E:\WorkSpace\C#\objetos\objetos\obj\Debug\objetos.csproj.AssemblyReference.cache
-E:\WorkSpace\C#\objetos\objetos\obj\Debug\objetos.csproj.SuggestedBindingRedirects.cache
-E:\WorkSpace\C#\objetos\objetos\obj\Debug\objetos.csproj.CoreCompileInputs.cache
-E:\WorkSpace\C#\objetos\objetos\bin\Debug\objetos.exe.config
-E:\WorkSpace\C#\objetos\objetos\bin\Debug\objetos.exe
-E:\WorkSpace\C#\objetos\objetos\bin\Debug\objetos.pdb
-E:\WorkSpace\C#\objetos\objetos\obj\Debug\objetos.exe
-E:\WorkSpace\C#\objetos\objetos\obj\Debug\objetos.pdb
